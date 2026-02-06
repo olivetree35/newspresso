@@ -1,0 +1,24 @@
+# .env.local 파일은 민감한 정보를 포함하므로 Git에 커밋하지 않습니다
+.env.local
+.env
+*.env
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 출력 파일들
+*.csv
+*.json
+*.html
+*.png
+debug_*
+
+# 기타
+.DS_Store
