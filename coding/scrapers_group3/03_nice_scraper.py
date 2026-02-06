@@ -141,3 +141,4 @@ class NICEScraper:
 if __name__ == "__main__":
     scraper = NICEScraper()
     asyncio.run(scraper.scrape())
+# 테스트
